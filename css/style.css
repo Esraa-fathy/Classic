@@ -1,0 +1,249 @@
+/*
+start main
+*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;   
+ }
+ .container{
+ width: 85%;
+ margin:auto;
+ }
+ .secpadding{
+  margin: 55px 0; 
+ }
+ .basiccolor{
+ color:#1abc9c;
+ }
+ .overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;   
+  background-color: #000;   
+  opacity: 0.7;
+ }
+.sechidding h4{
+font-size: 1.6em;
+font-weight: 100;
+position: relative;
+}
+.sechidding h4::before{
+ content: "";
+ width:39px;
+ height: 3px; 
+ background-color: #1abc9c;
+ position: absolute;
+ top: 28px;
+
+} 
+ /*
+ end main
+ */
+ /*
+ 
+ start Header
+ */
+ header{
+  position: relative; 
+  background: url("../images/img66.jpg");  
+  height: 100vh;
+  background-size: cover;
+  z-index: 100;
+ }
+ /*
+ start navbar
+ */
+ nav{
+   overflow: hidden; 
+   position: relative;
+   z-index: 100; 
+ }
+ nav .container .loGo{
+     float:left;
+     padding-top: 15px;
+ }
+ nav .container .loGo h2{
+  font-size: 2.5em;
+  font-weight: 100;   
+ }
+ nav .container .links{
+  font-size: 1.2em;   
+  float: right;   
+  padding-top: 27px;
+ }
+ nav .container .links a{
+  text-decoration: none; 
+  margin: 0 17px; 
+  color: #fff;
+ }
+ nav .container .links a:hover{
+ border-bottom: 2px solid #1abc9c; 
+ }
+ 
+ /*
+ end navbar
+ */
+ header .Headers{
+     position: absolute;
+     text-align: center;
+     left:470px;
+     top:300px;
+     z-index: 100;
+     }
+     header .Headers h1{
+     font-size: 3em;
+     text-transform: uppercase;
+     color: #fff;
+     }
+     header .Headers p{
+     text-transform: capitalize;
+     font-size: 1.5em;  
+     padding-top: 20px; 
+     color: #fff; 
+     }
+     
+ /*
+ end Header
+ */
+ 
+ /*
+ start Services
+ */
+ .Services .container .items{
+   border-bottom: 1px solid #b4b4b4;
+padding-bottom: 50px;
+ }
+ .Services .container .secpadding
+ {
+ font-size: 1.7em; 
+ font-weight: 100; 
+ }
+ .Services .container .secpadding span{
+   border-bottom: 2px solid #1abc9c;
+ }
+ .Services .container .dv{   
+ padding-right: 30px;
+ margin-bottom: 30px;
+ display: inline-block;
+ }
+ .Services .container .dv .icon{
+   margin-right: 30px;
+  font-size: 3.5em;
+  color: #1abc9c;
+  display: inline-block;
+   width:50px;
+   position: relative;
+ }
+ .Services .container .dv .icon i{
+   position: absolute;
+   top:-105px;
+ }
+ .Services .container .dv div{
+  display: inline-block; 
+ width: 310px;
+ }
+ .Services .container .dv div h3{
+   font-size: 1.3em;
+   font-weight: bold; 
+  }
+ .Services .container .dv div p{
+   font-size: 17px;
+   font-weight: 100;
+   color: #b4b4b4;
+   margin-top:10px;
+   }
+ 
+ /*
+ end Services
+ */
+
+ /*
+ start team
+ */
+ .team{
+  margin-top: 40px; 
+ }
+.team .container .left{
+  display: inline-block;
+  width:39%;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+.team .container .left p{
+  font-size: 17px;
+  font-weight: 100;
+  color: #b4b4b4;
+margin-top:30px ;
+ }
+.team .container .right{
+  display: inline-block;
+  width:59%;
+  }
+.team .container .right .image{
+display: inline-block;
+ width:23%;
+ height: 150px;
+ margin: 6px; 
+ position: relative;
+}
+.team .container .right .image img{
+background-size: cover;  
+height: 100%;
+width: 100%;
+}
+.team .container .right .image span{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color:#fff;
+border: 1px solid #fff;
+border-radius: 7px;
+z-index: 100;
+padding:4px 20px ;
+visibility: hidden;
+}
+.team .container .right .image .overlay{
+visibility: hidden;
+}
+.team .container .right .image:hover span,.team .container .right .image:hover .overlay{
+  visibility: visible;
+}
+
+ /*
+ end team
+ */
+
+
+ /*
+ start client say
+ */
+ .Say{
+margin-bottom: 0px;
+margin-top: 80px; 
+position: relative;
+background-image: url("../images/img41.jpg");
+width:100%;
+height: 330px;
+background-size: cover;
+ }
+.Say h5{
+position: absolute;  
+top: 30%;
+left: 50%;
+transform: translate(-50%,-50%);
+font-size: 50px;
+font-weight: bold;
+color: #fff;
+z-index: 100;
+text-transform: capitalize;
+}
+.Say .overlay{
+  opacity: 0.5px;
+}
+ /*
+ end client say
+ */
